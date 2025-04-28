@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg"  width="22.5" height="26"  viewBox="0 0 22.5 26" preserveAspectRatio="xMidYMid meet">
+  <g transform="scale(0.25)">
+    <polygon
+      points="30,26   60,26   75,52   60,78   30,78   15,52"
+      fill="none"
+      stroke="#1c213fd7"
+      stroke-width="6" />
+    <polyline
+      points="0,0 15,0 30,26 60,26 75,0 90,0"
+      fill="none"
+      stroke="#1c213fd7"
+      stroke-width="6" />
+    <polyline
+      points="0,52 15,52 30,78 60,78 75,52 90,52"
+      fill="none"
+      stroke="#1c213fd7"
+      stroke-width="6" />
+    <polyline
+      points="0,104 15,104 30,78 60,78 75,104 90,104"
+      fill="none"
+      stroke="#1c213fd7"
+      stroke-width="6" />
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	margin: 0;
+	font-family: system-ui, sans-serif;
+	background-color: #9ae600;
+	color: #5091e1;
+  }
+  
+  .dark body {
+	background-color: #6c7191d7;
+	color: #1c213fd7;
+  }
+
+.no-scrollbar::-webkit-scrollbar {
+	display: none;
+  }
+  .no-scrollbar {
+	-ms-overflow-style: none; 
+	scrollbar-width: none; 
+  }
+  
+  @keyframes slideIn {
+	from {
+	  opacity: 0;
+	  transform: translateY(20px);
+	}
+	to {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+  }
+  
+  .animate-slideIn {
+	animation: slideIn 0.5s ease-out forwards;
+  }
+
+  @keyframes slideLeft {
+	from {
+	  transform: translateX(35%);
+	}
+	to {
+	  transform: translateX(0);
+	}
+  }
+  
+  @keyframes slideRight {
+	from {
+	  transform: translateX(-35%);
+	}
+	to {
+	  transform: translateX(0);
+	}
+  }
+  
+  .animate-slideLeft {
+	animation: slideLeft 0.7s ease-in-out;
+  }
+  
+  .animate-slideRight {
+	animation: slideRight 0.7s ease-in-out;
+  }
+  
+  
