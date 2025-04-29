@@ -41,10 +41,8 @@ const ProjectCard = ({
   title,
   description,
   technologies,
-  category,
   repoUrl,
   demoUrl,
-  image,
   hoverImage,
 }: ProjectProps) => {
   return (
