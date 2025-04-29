@@ -7,7 +7,6 @@ import analyticsHover from '../assets/analytics-hover.jpg';
 import containerMain from '../assets/container-main.jpg';
 import containerHover from '../assets/container-hover.jpg';
 
-
 export const projects = [
 	{
 	  title: "Ecommerce Mascotas",
