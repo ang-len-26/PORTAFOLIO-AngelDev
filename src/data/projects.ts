@@ -1,3 +1,13 @@
+import ecommerceMain from '../assets/ecommerce-main.jpg';
+import ecommerceHover from '../assets/ecommerce-hover.jpg';
+import cryptoMain from '../assets/crypto-main.jpg';
+import cryptoHover from '../assets/crypto-hover.jpg';
+import analyticsMain from '../assets/analytics-main.jpg';
+import analyticsHover from '../assets/analytics-hover.jpg';
+import containerMain from '../assets/container-main.jpg';
+import containerHover from '../assets/container-hover.jpg';
+
+
 export const projects = [
 	{
 	  title: "Ecommerce Mascotas",
@@ -6,8 +16,8 @@ export const projects = [
 	  category: "Fullstack",
 	  demoUrl: "https://tudemo.com",
 	  repoUrl: "https://github.com/tuusuario/ecommerce-mascotas",
-	  image: "/images/ecommerce-main.jpg",
-	  hoverImage: "/images/ecommerce-hover.jpg"
+	  image: ecommerceMain,
+      hoverImage: ecommerceHover
 	},
 	{
 	  title: "Crypto Dashboard",
@@ -16,8 +26,8 @@ export const projects = [
 	  category: "Fullstack",
 	  demoUrl: "https://tudashboard.com",
 	  repoUrl: "https://github.com/tuusuario/crypto-dashboard",
-	  image: "/images/crypto-main.jpg",
-	  hoverImage: "/images/crypto-hover.jpg"
+	  image: cryptoMain,
+      hoverImage: cryptoHover
 	},
 	{
 	  title: "Analisis de datos",
@@ -26,8 +36,8 @@ export const projects = [
 	  category: "Fullstack",
 	  demoUrl: "https://tuanalisis.com",
 	  repoUrl: "https://github.com/tuusuario/data-analytics",
-	  image: "/images/analytics-main.jpg",
-	  hoverImage: "/images/analytics-hover.jpg"
+	  image: analyticsMain,
+	  hoverImage: analyticsHover
 	},
 	{
 	  title: "Contenedor",
@@ -36,8 +46,8 @@ export const projects = [
 	  category: "Fullstack",
 	  demoUrl: "https://tucontendor.com",
 	  repoUrl: "https://github.com/tuusuario/contenedor",
-	  image: "/images/container-main.jpg",
-	  hoverImage: "/images/container-hover.jpg"
+	  image: containerMain,
+	  hoverImage: containerHover
 	}
   ];
   
