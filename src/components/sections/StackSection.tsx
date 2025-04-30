@@ -47,7 +47,7 @@ const StackSection = () => {
       <div className="absolute inset-0 bg-[url('/img/honeycomb.svg')] bg-repeat bg-center opacity-50 z-10">
         {" "}
       </div>
-      <div className=" max-w-[700px] mx-auto mt-8 grid h-[400px] gap-[60px] justify-center items-center grid-cols-2 sm:grid-cols-4 z-20">
+      <div className="mx-auto mt-8 grid h-[400px] gap-[60px] justify-center items-center grid-cols-2 sm:grid-cols-4 z-20">
         {(Object.keys(techStack) as Category[]).map((category) => (
           <div
             key={category}
