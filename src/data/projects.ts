@@ -1,10 +1,10 @@
-import ecommerceMain from '../assets/ecommerce-main.jpg';
+import ecommerceMain from '../assets/ecommerce-hover.jpg';
+import cryptoMain from '../assets/crypto-hover.jpg';
+import analyticsMain from '../assets/analytics-hover.jpg';
+import containerMain from '../assets/container-hover.jpg';
 import ecommerceHover from '../assets/ecommerce-hover.jpg';
-import cryptoMain from '../assets/crypto-main.jpg';
 import cryptoHover from '../assets/crypto-hover.jpg';
-import analyticsMain from '../assets/analytics-main.jpg';
 import analyticsHover from '../assets/analytics-hover.jpg';
-import containerMain from '../assets/container-main.jpg';
 import containerHover from '../assets/container-hover.jpg';
 
 export const projects = [
