@@ -40,14 +40,14 @@ const StackSection = () => {
   };
 
   return (
-    <section id="Stack" className="p-8 relative overflow-hidden h-[600px]">
+    <section id="Stack" className="p-8 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-gray-950 from-50% via-lime-800 via-90% to-gray-900 to-96% z-0">
         {" "}
       </div>
       <div className="absolute inset-0 bg-[url('/img/honeycomb.svg')] bg-repeat bg-center opacity-50 z-10">
         {" "}
       </div>
-      <div className="mx-auto mt-8 grid h-[400px] gap-[60px] justify-center items-center grid-cols-2 sm:grid-cols-4 z-20">
+      <div className="mx-auto mt-8 grid gap-[60px] justify-center items-center grid-cols-2 sm:grid-cols-4 z-20 h-auto">
         {(Object.keys(techStack) as Category[]).map((category) => (
           <div
             key={category}
