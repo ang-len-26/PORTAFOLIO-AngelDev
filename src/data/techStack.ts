@@ -6,6 +6,8 @@ import {
 	SiCss3,
 	SiHtml5,
 	SiTailwindcss,
+	SiGo,
+	SiJavascript,
 	// SiNextdotjs,
 	// SiRedux,
 	SiReactrouter,
@@ -58,14 +60,14 @@ import {
 	  { name: "Bootstrap", icon: SiBootstrap, color: "#7e119d" },
 	  { name: "React Router", icon: SiReactrouter, color: "#CA4245" },
 	  { name: "React Query", icon: SiReactquery, color: "#FF4154" },
+	  { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
 	//   { name: "Next.js", icon: SiNextdotjs, color: "#000000" },
 	//   { name: "Redux", icon: SiRedux, color: "#764ABC" },
 	//   { name: "Styled Components", icon: SiStyledcomponents, color: "#DB7093" },
 	//   { name: "Sass", icon: SiSass, color: "#CC6699" },
 	//   { name: "Chakra UI", icon: SiChakraui, color: "#319795" },
 	//   { name: "Ant Design", icon: SiAntdesign, color: "#0170FE" },
-	//   { name: "Framer Motion", icon: SiFramer, color: "#F24E1E" },
-	//   { name: "React Query", icon: SiReactquery, color: "#FF4154" }
+	//   { name: "Framer Motion", icon: SiFramer, color: "#F24E1E" }
 	],
 	backend: [
 	  { name: "Node.js", icon: FaNodeJs, color: "#3C873A" },
@@ -74,6 +76,7 @@ import {
 	  { name: "Python", icon: SiPython, color: "#3776AB" },
 	  { name: "Django", icon: SiDjango, color: "#092E20" },
 	  { name: "Flask", icon: SiFlask, color: "#d6dfdf" },
+	  { name: "Go", icon: SiGo, color: "#00ADD8" },
 	//   { name: "FastAPI", icon: SiFastapi, color: "#009688" },
 	//   { name: "NestJS", icon: SiNestjs, color: "#E0234E" },
 	//   { name: "GraphQL", icon: SiGraphql, color: "#E10098" },

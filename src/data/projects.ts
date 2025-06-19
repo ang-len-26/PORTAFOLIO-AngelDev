@@ -1,52 +1,39 @@
-import ecommerceMain from '../assets/ecommerce-hover.jpg';
-import cryptoMain from '../assets/crypto-hover.jpg';
-import analyticsMain from '../assets/analytics-hover.jpg';
-import containerMain from '../assets/container-hover.jpg';
-import ecommerceHover from '../assets/ecommerce-hover.jpg';
-import cryptoHover from '../assets/crypto-hover.jpg';
-import analyticsHover from '../assets/analytics-hover.jpg';
-import containerHover from '../assets/container-hover.jpg';
+import openDataMain from '../assets/OpenData-main.jpg';
+import openDataHover from '../assets/OpenData-hover.jpg';
+import dashboardMain from '../assets/DashboardMf-main.jpg';
+import dashboardHover from '../assets/DashboardMf-hover.jpg';
+import financeMain from '../assets/FinanceSimulador-main.jpg';
+import financeHover from '../assets/FinanceSimulador-hover.jpg';
 
 export const projects = [
-	{
-	  title: "Ecommerce Mascotas",
-	  description: "Tienda online para productos de mascotas, con React y Node.js.",
-	  technologies: ["React", "Node.js", "MongoDB", "Express"],
-	  category: "Fullstack",
-	  demoUrl: "https://tudemo.com",
-	  repoUrl: "https://github.com/tuusuario/ecommerce-mascotas",
-	  image: ecommerceMain,
-      hoverImage: ecommerceHover
-	},
-	{
-	  title: "Crypto Dashboard",
-	  description: "Dashboard con datos de criptomonedas en tiempo real usando CoinGecko API.",
-	  technologies: ["React", "TypeScript", "Chart.js"],
-	  category: "Fullstack",
-	  demoUrl: "https://tudashboard.com",
-	  repoUrl: "https://github.com/tuusuario/crypto-dashboard",
-	  image: cryptoMain,
-      hoverImage: cryptoHover
-	},
-	{
-	  title: "Analisis de datos",
-	  description: "Seguimiento de los usuarios.",
-	  technologies: ["MySQL", "Express", "Java"],
-	  category: "Fullstack",
-	  demoUrl: "https://tuanalisis.com",
-	  repoUrl: "https://github.com/tuusuario/data-analytics",
-	  image: analyticsMain,
-	  hoverImage: analyticsHover
-	},
-	{
-	  title: "Contenedor",
-	  description: "Administración de imágenes de proyectos.",
-	  technologies: ["Docker", "AWS", "Java"],
-	  category: "Fullstack",
-	  demoUrl: "https://tucontendor.com",
-	  repoUrl: "https://github.com/tuusuario/contenedor",
-	  image: containerMain,
-	  hoverImage: containerHover
-	}
-  ];
-  
+  {
+    title: "Go Open Data API",
+    description: "🌐 API RESTful en Go para explorar datos públicos de países, ciudades, idiomas, monedas y regiones. Incluye frontend informativo en React.",
+    technologies: ["Go", "PostgreSQL", "React", "JavaScript", "HTML"],
+    category: "Backend",
+    demoUrl: "https://go-open-data-demo.vercel.app",
+    repoUrl: "https://github.com/ang-len-26/Go-Open-Data",
+    image: openDataMain,
+    hoverImage: openDataHover
+  },
+  {
+    title: "Dashboard Modular con Micro-Frontends",
+    description: "🧩 Contenedor principal (shell) de una arquitectura basada en Micro-Frontends utilizando React, TypeScript, Webpack 5 y Module Federation.",
+    technologies: ["React", "TypeScript", "HTML", "CSS", "Webpack", "JWT"],
+    category: "Frontend",
+    demoUrl: "https://dashboard-mf-demo.vercel.app",
+    repoUrl: "https://github.com/ang-len-26/dashboard-mf",
+    image: dashboardMain,
+    hoverImage: dashboardHover
+  },
+  {
+    title: "Simulador de Finanzas Personales",
+    description: "📊 Aplicación interactiva para gestionar ingresos, egresos y visualizar reportes financieros personales. Hecha con React, Django REST y PostgreSQL.",
+    technologies: ["React", "TypeScript", "HTML", "CSS", "PostgreSQL", "Python"],
+    category: "Fullstack",
+    demoUrl: "https://finance-simulator-demo.vercel.app",
+    repoUrl: "https://github.com/ang-len-26/finance-simulator",
+    image: financeMain,
+    hoverImage: financeHover
+  }
+];

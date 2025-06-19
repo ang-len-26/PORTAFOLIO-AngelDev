@@ -43,6 +43,7 @@ const ProjectCard = ({
   technologies,
   repoUrl,
   demoUrl,
+  image,
   hoverImage,
 }: ProjectProps) => {
   return (
@@ -66,11 +67,21 @@ const ProjectCard = ({
 
       {/* Columna derecha */}
       <div className="relative w-full h-[350px] overflow-hidden rounded-xl shadow-lg group">
-        <img
-          src={hoverImage}
-          alt={title}
-          className="w-full h-full object-cover transition-opacity duration-500 group-hover:brightness-50"
-        />
+        <div className="relative w-full h-full">
+          {/* Imagen principal */}
+          <img
+            src={image}
+            alt={title}
+            className="absolute inset-0 w-full h-full object-cover transition-opacity duration-700 opacity-100 group-hover:opacity-0"
+          />
+
+          {/* Imagen hover */}
+          <img
+            src={hoverImage}
+            alt={`${title} (hover)`}
+            className="absolute inset-0 w-full h-full object-cover transition-opacity duration-700 opacity-0 group-hover:opacity-100 group-hover:brightness-50"
+          />
+        </div>
         <div className="absolute inset-0 flex items-center justify-center gap-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           <a
             href={demoUrl}
