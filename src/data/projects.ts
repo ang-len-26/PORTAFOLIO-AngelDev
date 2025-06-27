@@ -21,7 +21,7 @@ export const projects = [
     description: "🧩 Contenedor principal (shell) de una arquitectura basada en Micro-Frontends utilizando React, TypeScript, Webpack 5 y Module Federation.",
     technologies: ["React", "TypeScript", "HTML", "CSS", "Webpack", "JWT"],
     category: "Frontend",
-    demoUrl: "shell-vert.vercel.app",
+    demoUrl: "https://shell-vert.vercel.app",
     repoUrl: "https://github.com/ang-len-26/dashboard-mf",
     image: dashboardMain,
     hoverImage: dashboardHover
