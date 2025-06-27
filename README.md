@@ -8,25 +8,24 @@
 
 ---
 
-¡Bienvenido/a a mi portafolio personal!  
-Este proyecto es una vitrina de mis habilidades como desarrollador web frontend, backend y fullstack.  
-Diseñado y construido desde cero, buscando reflejar mi enfoque en el detalle, el rendimiento y la experiencia de usuario.
+¡Hola! Bienvenido/a a mi portafolio personal.  
+Este sitio fue diseñado y construido desde cero para mostrar mis habilidades como **Desarrollador Full Stack**, enfocándome en el rendimiento, la escalabilidad y una experiencia de usuario moderna.
 
 ---
 
-## 🚀 Tecnologías utilizadas
+## 🚀 Tecnologías principales
 
-- **React** + **TypeScript**
-- **CSS Puro**
-- **Framer Motion** (animaciones)
-- **Vercel** (despliegue)
-- **Git / GitHub**
+- ⚛️ **React** + **TypeScript**
+- 🎨 **TailwindCSS** + **CSS Puro** para estilos personalizados
+- 🧩 **Framer Motion** para animaciones fluidas y modernas
+- ⚙️ **Vite** como bundler de desarrollo rápido
+- 📦 **Modular Architecture** para escalabilidad
+- 🌐 **Vercel** para despliegue en producción
+- 🧠 **Git** y **GitHub** para control de versiones
 
 ---
 
 ## 📸 Vista previa
-
-_(Puedes reemplazar esto con una imagen real o un gif de tu portafolio funcionando)_
 
 ![Vista previa del portafolio](./screenshot.png)
 
@@ -44,63 +43,64 @@ _(Puedes reemplazar esto con una imagen real o un gif de tu portafolio funcionan
 
 ## ⚙️ Instalación local
 
-Si deseas clonar y ejecutar este proyecto localmente:
+Si deseas ejecutar este portafolio en tu máquina local:
 
 ```bash
-# Clonar el repositorio
+# 1. Clona el repositorio
 git clone https://github.com/ang-len-26/PORTAFOLIO-AngelDev.git
 
-# Acceder al proyecto
+# 2. Entra al proyecto
 cd PORTAFOLIO-AngelDev
 
-# Instalar dependencias
+# 3. Instala las dependencias
 npm install
 
-# Ejecutar en modo desarrollo
+# 4. Inicia el servidor de desarrollo
 npm run dev
 ```
 
 ## 🧩 Estructura del proyecto
 
-src/
-├── assets/
-├── components/
-│ ├── common/
-│ ├── layout/
-│ │ ├── Footer.tsx
-│ │ ├── Header.tsx
-│ │ └── Layout.ts
-│ └── sections/
-│ ├── HeroSection.tsx
-│ ├── ProjectsSection.tsx
-│ └── StackSection.tsx
-├── context/
-│ └── ThemeContext.tsx
-├── data/
-│ ├── projects.ts
-│ └── techStack.ts
-├── hooks/
-├── pages/
-│ ├── Home/
-│ │ └── index.tsx
-│ ├── Projects/
-│ │ ├── index.tsx
-│ │ └── ProjectCard.tsx
-│ └── Aboutme/
-│ └── index.tsx
-├── routes/
-│ └── Routes.tsx
-├── styles/
-│ └── global.css
-├── utils/
-├── App.tsx
-└── main.tsx
+- src/
+- ├── assets/
+- ├── components/
+- │ ├── common/
+- │ ├── layout/
+- │ │ ├── Footer.tsx
+- │ │ ├── Header.tsx
+- │ │ └── Layout.ts
+- │ └── sections/
+- │ ├── HeroSection.tsx
+- │ ├── ProjectsSection.tsx
+- │ └── StackSection.tsx
+- ├── context/
+- │ └── ThemeContext.tsx
+- ├── data/
+- │ ├── projects.ts
+- │ └── techStack.ts
+- ├── hooks/
+- ├── pages/
+- │ ├── Home/
+- │ │ └── index.tsx
+- │ ├── Projects/
+- │ │ ├── index.tsx
+- │ │ └── ProjectCard.tsx
+- │ └── Aboutme/
+- │ └── index.tsx
+- ├── routes/
+- │ └── Routes.tsx
+- ├── styles/
+- │ └── global.css
+- ├── utils/
+- ├── App.tsx
+- └── main.tsx
 
 ## 🎯Proximas mejoras
 
-Integrar formulario de contacto funcional.
-Añadir más proyectos recientes.
-Mejoras en SEO y rendimiento.
+- 📬 Integrar un formulario de contacto funcional (emailJS o backend propio)
+- 🗃️ Agregar más proyectos recientes
+- 🔍 Mejoras SEO y tiempos de carga
+- 📈 Sección de estadísticas de GitHub y stack más visual
 
 ## 📜 Licencia
 
@@ -110,4 +110,5 @@ Este proyecto está licenciado bajo la **Creative Commons Attribution-NonCommerc
 
 Consulta los detalles aquí: [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-✨ Gracias por visitar ✨
+✨ Gracias por visitar mi portafolio ✨
+Construido con pasión, código limpio y muchas ganas de seguir creciendo.

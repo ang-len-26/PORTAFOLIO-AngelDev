@@ -7,11 +7,11 @@ import financeHover from '../assets/FinanceSimulador-hover.jpg';
 
 export const projects = [
   {
-    title: "Go Open Data API",
+    title: "Go Open Data",
     description: "🌐 API RESTful en Go para explorar datos públicos de países, ciudades, idiomas, monedas y regiones. Incluye frontend informativo en React.",
     technologies: ["Go", "PostgreSQL", "React", "JavaScript", "HTML"],
     category: "Backend",
-    demoUrl: "https://go-open-data-demo.vercel.app",
+    demoUrl: "https://go-open-data.vercel.app",
     repoUrl: "https://github.com/ang-len-26/Go-Open-Data",
     image: openDataMain,
     hoverImage: openDataHover
@@ -21,7 +21,7 @@ export const projects = [
     description: "🧩 Contenedor principal (shell) de una arquitectura basada en Micro-Frontends utilizando React, TypeScript, Webpack 5 y Module Federation.",
     technologies: ["React", "TypeScript", "HTML", "CSS", "Webpack", "JWT"],
     category: "Frontend",
-    demoUrl: "https://dashboard-mf-demo.vercel.app",
+    demoUrl: "shell-vert.vercel.app",
     repoUrl: "https://github.com/ang-len-26/dashboard-mf",
     image: dashboardMain,
     hoverImage: dashboardHover
@@ -31,7 +31,7 @@ export const projects = [
     description: "📊 Aplicación interactiva para gestionar ingresos, egresos y visualizar reportes financieros personales. Hecha con React, Django REST y PostgreSQL.",
     technologies: ["React", "TypeScript", "HTML", "CSS", "PostgreSQL", "Python"],
     category: "Fullstack",
-    demoUrl: "https://finance-simulator-demo.vercel.app",
+    demoUrl: "finance-frontend-pink.vercel.app",
     repoUrl: "https://github.com/ang-len-26/finance-simulator",
     image: financeMain,
     hoverImage: financeHover
